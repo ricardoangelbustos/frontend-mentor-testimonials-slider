@@ -75,6 +75,17 @@ body{
     width: 60%;
     height: 30px;
 }
+footer{
+    text-align: center;
+    margin-top: -10px;
+}
+footer a{
+    text-decoration: none;
+    color: royalblue;
+}
+footer a:hover{
+    border-bottom: 1px solid royalblue;
+}
 @media (max-width: 1215px){
     .text p{
         font-size: 25px;
