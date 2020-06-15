@@ -1,7 +1,7 @@
 function changeText() {
   var text = document.getElementById("text");
   if (text.innerHTML.match("“ I’ve")) {
-    text.innerHTML = "“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”";
+    text.innerHTML = "“ If you want to lay the best foundation <br> possible I’d recommend taking this <br> course. The depth the instructors go into <br> is incredible. I now feel so confident about <br> starting up as a professional developer. ”";
   } else {
     text.innerHTML = "“ I’ve been interested in coding for a while <br> but never taken the jump, until now. I <br> couldn’t recommend this course enough. <br> I’m now in the job of my dreams and so <br> excited about the future. ”";
   }
